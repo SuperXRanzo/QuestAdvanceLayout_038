@@ -40,13 +40,13 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun ProfileScreen(modifier: Modifier = Modifier) {
     Column(
-        modifier = Modifier
+        modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF101010))
+            .background(Color(0xFFBDBDBD)) // abu-abu muda
             .padding(horizontal = 20.dp, vertical = 40.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Image(
+    Image(
             painter = painterResource(id = R.drawable.profile_pic),
             contentDescription = "Profile Picture",
             modifier = Modifier
