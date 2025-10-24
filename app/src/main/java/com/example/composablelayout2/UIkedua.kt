@@ -45,3 +45,9 @@ fun ProfileScreen() {
         color = Color.White,
         fontSize = 22.sp,
         fontWeight = FontWeight.Bold
+    )
+    Text(
+        text = "@ObamaBinLAden",
+        color = Color.LightGray,
+        fontSize = 14.sp
+    )
