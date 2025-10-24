@@ -39,15 +39,28 @@ fun ProfileScreen() {
         )
 
         Spacer(modifier = Modifier.height(12.dp))
+
+        Text(
+            text = "Adolf Speed",
+            color = Color.White,
+            fontSize = 22.sp,
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = "@ObamaBinLaden",
+            color = Color.LightGray,
+            fontSize = 14.sp
+        )
+
+        Spacer(modifier = Modifier.height(8.dp))
+        Text(
+            text = "Saya seorang pelukis digital Eropa",
+            color = Color.White,
+            fontSize = 14.sp,
+            fontFamily = FontFamily.SansSerif
+        )
+
+        Spacer(modifier = Modifier.height(30.dp))
+
     }
-    Text(
-        text = "Adolf Speed",
-        color = Color.White,
-        fontSize = 22.sp,
-        fontWeight = FontWeight.Bold
-    )
-    Text(
-        text = "@ObamaBinLAden",
-        color = Color.LightGray,
-        fontSize = 14.sp
-    )
+}
