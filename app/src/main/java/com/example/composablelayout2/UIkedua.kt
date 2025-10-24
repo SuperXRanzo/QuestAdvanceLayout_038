@@ -62,5 +62,12 @@ fun ProfileScreen() {
 
         Spacer(modifier = Modifier.height(30.dp))
 
+        MenuCard("Privacy")
+        Spacer(modifier = Modifier.height(10.dp))
+        MenuCard("Riwayat Melukis")
+        Spacer(modifier = Modifier.height(10.dp))
+        MenuCard("Pengaturan")
+
+        Spacer(modifier = Modifier.height(40.dp))
     }
 }
