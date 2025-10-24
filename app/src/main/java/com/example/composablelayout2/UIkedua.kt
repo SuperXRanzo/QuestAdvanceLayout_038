@@ -102,5 +102,11 @@ fun ProfileScreen() {
         }
 
         Spacer(modifier = Modifier.height(20.dp))
+
+        Text(
+            text = "© 1945 Adolf Speed",
+            color = Color.Gray,
+            fontSize = 12.sp
+        )
     }
 }
